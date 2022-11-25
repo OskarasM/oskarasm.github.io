@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="d" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 606 139">
+  <defs>
+    <style>
+      .f {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="f" x="465.76" y=".1" width="37.5" height="138.9"/>
+  <rect class="f" x="567.15" y=".1" width="37.5" height="138.9"/>
+  <rect class="f" x="500.48" y="1.54" width="37.5" height="82.36" transform="translate(121.87 379.66) rotate(-45)"/>
+  <path class="f" d="M69.46,0C31.11,0,.01,31.09,.01,69.45s31.09,69.45,69.45,69.45,69.45-31.09,69.45-69.45S107.82,0,69.46,0Zm0,101.4c-17.65,0-31.95-14.3-31.95-31.95s14.3-31.95,31.95-31.95,31.95,14.3,31.95,31.95-14.3,31.95-31.95,31.95Z"/>
+  <rect class="f" x="428.25" y="101.5" width="75.01" height="37.5"/>
+  <rect class="f" x="208.23" y="-69.32" width="37.5" height="176.14" transform="translate(245.73 -208.23) rotate(90)"/>
+  <rect class="f" x="138.91" y="101.4" width="116.67" height="37.5"/>
+  <polygon class="f" points="255.59 101.27 255.59 117.38 237.13 135.84 138.91 37.63 165.43 11.11 255.59 101.27"/>
+  <rect class="f" x="277.55" y=".1" width="37.5" height="138.9"/>
+  <rect class="f" x="330.15" y="-8.91" width="37.5" height="153.45" transform="translate(150.14 -226.85) rotate(45)"/>
+  <rect class="f" x="356.82" y="59.18" width="37.5" height="77.82" transform="translate(40.64 294.3) rotate(-45)"/>
+</svg>
