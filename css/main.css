@@ -2757,7 +2757,7 @@ input::-moz-focus-inner {
 
 .item-folio {
   text-align: center;
-  padding: 60px;
+  padding: 30px;
   background-color: #EFEFEF;
   transition: all 0.5s ease-in-out;
 }
