@@ -713,7 +713,7 @@
                     </div>
                 </div> <!-- end masonry__brick -->
                 
-                <div class="masonry__brick" data-aos="fade-up">
+                <div class="masonry__brick" data-aos="fade-up" data-aos-delay="200">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
                             <a href="images/portfolio/gallery/g-roadgen.png" class="thumb-link" title="Road Generation Tool" data-size="1050x700">
@@ -722,7 +722,7 @@
                         </div>
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">Road Generation Tool</h4>
-                            <p class="item-folio__cat">Procedural Content Generation & AI</p>
+                            <p class="item-folio__cat">PCG & AI</p>
                         </div>
                         <div class="item-folio__caption">
                             <p>Developed in Unreal Engine 5 using C++ and Blueprints, this road generation tool creates dynamic urban environments with procedural roads, intersections, and AI-driven traffic. I built a custom PosableMeshAsset class for performant boned mesh roads, implemented spline-based and physics-based car systems with A* pathfinding, and integrated procedural audio and VFX for immersive feedback. Features include customizable obstacles, nuanced driver profiles, and optimized performance via timers and reduced traces. Collaborating with a 3D modeler, I refined UV textures and enhanced intersection logic for realistic traffic flow. Explore the tool’s capabilities, from modular road networks to dynamic traffic behaviors, in this <a href="https://www.youtube.com/watch?v=8fZ7kMq6n-8" target="_blank"><i class="fas fa-play"></i> demonstration video</a>.</p>
@@ -730,7 +730,7 @@
                     </div>
                 </div> <!-- end masonry__brick -->
 
-                <div class="masonry__brick" data-aos="fade-up">
+                <div class="masonry__brick" data-aos="fade-up" data-aos-delay="300">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
                             <a href="images/portfolio/gallery/g-bossbattle.png" class="thumb-link" title="Boss Battle System" data-size="3150x2100">
@@ -747,10 +747,10 @@
                     </div> 
                 </div> <!-- end masonry__brick -->
             
-                <div class="masonry__brick" data-aos="fade-up">
+                <div class="masonry__brick" data-aos="fade-up" data-aos-delay="400">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-advanced-ai.png" class="thumb-link" title="Advanced AI Module Projects" data-size="2100x1400">
+                            <a href="images/portfolio/gallery/g-advanced-ai.png" class="thumb-link" title="Advanced AI Module Projects" data-size="3150x2100">
                                 <img src="images/portfolio/advanced-ai.png" srcset="images/portfolio/advanced-ai.png 1x, images/portfolio/advanced-ai@2x.png 2x" alt="Screenshot showcasing Chess AI and Squad AI in action">
                             </a>
                         </div>
@@ -759,23 +759,20 @@
                             <p class="item-folio__cat">AI Development</p>
                         </div>
                         <div class="item-folio__caption">
-                            <p>Over 9 weeks in my Advanced AI module, I designed and implemented three distinct AI systems—Chess AI, Long Term Planning AI, and Squad AI—demonstrating advanced AI techniques and C++ programming proficiency in game development contexts.</p>
+                            <p>Over a 9-week Advanced AI module, I developed three distinct AI systems—Chess AI, Squad AI, and Long Term Planning AI—demonstrating proficiency in C++ programming, AI algorithms, and real-time game systems. Each project tackles unique challenges, showcasing intelligent, adaptive behaviors tailored to specific gameplay contexts.</p>
                             
-                            <h5>Chess AI</h5>
-                            <p>I crafted a sophisticated Chess AI utilizing <strong>bitboards</strong> for efficient board state representation, enabling rapid move generation and position evaluation. The AI leverages the <strong>Minimax algorithm with Alpha-Beta pruning</strong> to optimize decision-making, achieving strategic depth within time constraints. A multi-faceted evaluation function assesses material balance, piece positioning, king safety, pawn structure, and mobility, creating a challenging and adaptive opponent. Key optimizations include move ordering with MVV-LVA heuristics and center control bonuses, enhancing pruning efficiency and gameplay quality.</p>
+                            <p>I built a high-performance Chess AI using bitboards for efficient board state management and move generation. The AI leverages the Minimax algorithm with Alpha-Beta pruning to make strategic decisions, supported by a robust evaluation function that assesses material, piece positioning, king safety, pawn structure, and mobility. Optimizations like move ordering with Most Valuable Victim-Least Valuable Attacker heuristics and center control prioritization ensure a competitive and responsive opponent, ideal for challenging gameplay.</p>
                             
-                            <h5>Squad AI</h5>
-                            <p>The Squad AI system coordinates multiple zombie agents in a dynamic game environment. Built with a <strong>utility-based decision-making framework</strong>, it enables agents to prioritize actions—pursuing the player, searching areas, assisting allies, or patrolling—based on real-time conditions. A <strong>message passing system</strong> facilitates inter-agent communication, sharing critical events like player sightings or distress calls, fostering emergent cooperative behaviors. Integrated with spatial awareness and pathfinding, agents navigate intelligently, adapting to obstacles and player movements for immersive gameplay.</p>
+                            <p>The Squad AI coordinates zombie agents in a dynamic game environment, employing a utility-based decision-making framework to prioritize actions such as pursuing the player, searching areas, assisting allies, or patrolling. A message-passing system enables agents to share critical information, like player sightings or distress calls, fostering emergent cooperative behaviors. Integrated with spatial awareness and pathfinding, the AI delivers immersive, intelligent enemy interactions, enhancing the game’s tension and strategy.</p>
                             
-                            <h5>Long Term Planning AI</h5>
-                            <p>For the Long Term Planning AI, I developed a wave management system to orchestrate enemy spawns across multiple stages. Implemented in <code>wave_manager.cpp</code>, it adjusts spawn rates, zombie health, and speed over five waves, simulating progressive difficulty. While not a traditional planning AI, it lays the groundwork for strategic escalation, balancing challenge and pacing in a game setting. This system showcases my ability to manage long-term game states and adapt AI behaviors over time.</p>
+                            <p>The Long Term Planning AI powers a resource management game where players assign workers to collect resources and perform tasks like constructing buildings. I designed an AI system that enables workers to autonomously organize and execute tasks efficiently using long-term planning strategies. The system optimizes task allocation based on resource availability and worker proximity, ensuring strategic efficiency. I implemented collision detection for precise environmental interactions, a countdown system for task timing, a robust input and rendering framework for seamless gameplay, and text metrics for dynamic UI displays, creating a cohesive and engaging player experience.</p>
                             
-                            <p>These projects deepened my expertise in AI algorithms, optimization, and real-time systems, leveraging files like <code>ChessBitBoard.cpp</code>, <code>ChessPlayerAI.cpp</code>, <code>squad_ai.cpp</code>, and <code>wave_manager.cpp</code>. They highlight my capability to craft intelligent, responsive behaviors that enhance player experiences in complex, dynamic environments.</p>
+                            <p>These projects highlight my ability to craft sophisticated AI systems that enhance gameplay through strategic decision-making, cooperative behaviors, and efficient task management. From competitive chess to dynamic squad coordination and resource-driven planning, this work underscores my expertise in AI development and real-time systems.</p>
                         </div>
                     </div>
                 </div> <!-- end masonry__brick -->
 
-                <div class="masonry__brick" data-aos="fade-up" data-aos-delay="200">
+                <div class="masonry__brick" data-aos="fade-up" data-aos-delay="500">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
                             <a href="images/portfolio/gallery/g-wellofooze.png" class="thumb-link" title="Well of Ooze" data-size="2100x1400">
@@ -784,11 +781,28 @@
                         </div>
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">Well of Ooze</h4>
-                            <p class="item-folio__cat">Gameplay Programming & Procedural Content Generation</p>
+                            <p class="item-folio__cat">Gameplay Programming & PCG</p>
                         </div>
                         <div class="item-folio__caption">
                             <p>Developed in a high-pressure 32-hour sprint for the Ukie Game Jam 2025 by "The Weakest Game Group of All Time," <em>Well of Ooze</em> embodies the theme of "contrast." As the lead gameplay programmer, I drove the creation of core mechanics, procedural content generation (PCG), and game systems, while also bridging technical and artistic elements. The game follows a plucky slime escaping the shadowy depths of a procedurally generated well toward blinding light. I implemented responsive controls (right-click to aim, left-click to jump, WASD for mid-air nudges), a seed-based PCG algorithm for dynamic well layouts, and a data persistence system to save high scores and carry over level progression, enhancing replayability. I integrated audio, leveraging ElevenLabs’ generative AI for immersive sound effects, and crafted a rippling water material to elevate the game’s visual atmosphere. As the key liaison between tech and art, I ensured seamless integration of 3D models, UI, and VFX, delivering a polished experience. Key features include dual modes (Timed Normal and Endless), infinite replayability, and a cinematic finale. Explore the game on <a href="https://serpter4215.itch.io/well-of-ooze-the-weakest-game-group-of-all-time" target="_blank"><i class="fas fa-gamepad"></i> itch.io</a> and see it in action in this <a href="https://youtu.be/4eTB0Lw1PqI" target="_blank"><i class="fas fa-play"></i> demonstration video</a>.</p>
                             <p><strong>Team:</strong> Adrian Cervenak (Tech Art & 3D Modelling), Oskaras Margevicius (Gameplay Programming), Thomas Collins (Game Systems), Timothy Lau (UI & Design), Timothy Lee (3D Modelling & Environment Art).</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up" data-aos-delay="600">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-forgivemenot.png" class="thumb-link" title="Forgive Me Not" data-size="1050x700">
+                                <img src="images/portfolio/forgivemenot.png" srcset="images/portfolio/forgivemenot.png 1x, images/portfolio/forgivemenot@2x.png 2x" alt="Screenshot of Forgive Me Not, showcasing enemy AI and immersive VFX">
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">Forgive Me Not</h4>
+                            <p class="item-folio__cat">Technical Lead</p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>As Technical Lead for <em>Forgive Me Not</em>, I have driven the development of core systems to create an immersive and engaging gameplay experience. I engineered advanced AI systems to deliver realistic enemy behaviors, enhancing challenge and unpredictability. To deepen player immersion, I developed procedural camera animations that dynamically adapt to gameplay contexts, alongside responsive player movement mechanics for fluid navigation. I implemented a robust damage system to track health and influence gameplay outcomes, paired with visually striking VFX to enrich the game’s atmosphere. Character animations were designed for seamless transitions, ensuring natural movement flows. I also created an enemy spawning system tailored for level designers, enabling flexible and strategic enemy placement. To enhance exploration, I developed systems for interactive elements like weapons and doors, fostering deeper player engagement. Finally, I established compelling game objectives to guide player interaction, balancing challenge and progression. This project underscores my ability to lead technical development, integrating AI, gameplay mechanics, and visual fidelity into a cohesive experience.</p>
                         </div>
                     </div>
                 </div> <!-- end masonry__brick -->
@@ -859,9 +873,9 @@
 -->
                 <p class="section-desc">
                     Let’s collaborate to craft innovative games with cutting-edge AI and gameplay. Together, we’ll turn bold ideas into extraordinary realities—reach out to start!
-<!--
-                    <a href="mailto:#0">Email Me</a>.
--->
+
+                    <a href="mailto:om11757@outlook.com">Email Me</a>.
+
                 </p>
             </div>
         </div>
