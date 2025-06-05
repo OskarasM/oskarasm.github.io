@@ -2751,8 +2751,8 @@ input::-moz-focus-inner {
 
 .masonry__brick {
   float: left;
-  padding: 0 30px;
-  margin-bottom: 60px;
+  padding: 0 15px;
+  margin-bottom: 30px;
 }
 
 .item-folio {
